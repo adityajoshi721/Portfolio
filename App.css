@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Archivo', sans-serif;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}   
+.nav-container {
+    padding: 2rem;
+}
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* top: 0; */
+    /* position: fixed; */
+}
+.nav-options {
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+}
+#fade-font {
+    color: rgb(243, 228, 204);
+    font-weight: bold;
+}
+.nav-heading {
+    width: 50%;
+}
+#make-bold {
+    font-weight: bold;
+}
+#make-bolder {
+    font-weight: bolder;
+}
+.icon-align {
+    display: inline-flex;
+    vertical-align: top;
+}
+.hero {
+    padding: 1rem;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.typing-demo {
+  width: 26ch;
+  animation: typing 2.5s steps(22), blink .5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid;
+}
+
+@keyframes typing {
+  from {
+    width: 0
+  }
+}   
+@keyframes blink {
+  50% {
+    border-color: transparent
+  }
+}
+.hero-headline {
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem;
+}
+.animation-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#center-horizontally {
+    text-align: center;
+    font-weight: bold;
+}
+#center-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+#hero-tagline {
+    background-color: rgb(26, 24, 24);
+    padding: 0.5rem;
+    border-radius: 1rem;
+}
+.about-container {
+    padding: 2rem;
+}
+#ppadding {
+    height: 8vh;
+}
+.social-grid {
+    display: grid;
+    grid-template-columns: auto auto auto auto; 
+    grid-column-gap: 3rem;
+    padding: 1rem;
+}
+.social-element {
+    /* border: 3px solid rgb(43, 43, 43); */
+    /* min-height: 240px; */
+    padding: 1rem;
+    border-radius: 1rem;
+}
+.social-element-image {
+    height: 70%;
+}
+.socials-element-image 
+img {
+    height: 100%;
+    width: 100%;
+}
+.tech-used {
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+.tech-used {
+    padding: 2rem;
+}
+.tech-desc {
+    padding: 1rem;
+}
+.footer {
+    height: 40vh;
+}
+.footer 
+div {
+    text-align: center;
+    vertical-align: bottom;
+}
